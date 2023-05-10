@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.sendgrid.net
+    port: 587
+    username: apikey
+    password: my key
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
